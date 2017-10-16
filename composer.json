@@ -1,0 +1,22 @@
+{
+    "name": "lutian/PHPMxGram",
+    "version": "1.0.0",
+    "type": "library",
+    "description": "Encrypt and decrypt messages into a PNG image-code",
+    "keywords": ["lutian", "PHPMxGram", "image processing", "encryption"],
+    "homepage": "https://github.com/lutian/PHPMxGram.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luciano Salvino",
+            "email": "lsalvino@hotmail.com",
+            "homepage": "http://mxgram.mueveloz.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": { "Lutian\\PHPMxGram\\": "/" }
+    }
+}
